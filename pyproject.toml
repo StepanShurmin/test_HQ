@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-hq"
+version = "0.1.0"
+description = ""
+authors = ["StepanShurmin <shurmin.sa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.2"
+pillow = "^10.2.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
